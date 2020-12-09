@@ -1,0 +1,766 @@
+@font-face {
+    font-family: 'texas';
+    src: url('../fonts/Eastwood.woff2') format('woff2'),
+         url('../fonts/Eastwood.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Epilogue', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1400px;
+	padding: 0 2%;
+}
+
+.container-header{
+	margin: 0 auto;
+	max-width: 1700px;
+	padding: 0 2%;
+}
+
+.w50{
+	width: 50%;
+}
+
+.w100{
+	width: 100%;
+}
+/* Comeco do header*/
+header{
+	background-color: #fffb00;
+	padding: 10px 0;
+}
+
+div.logo-desktop{
+	height: 120px;
+	width: 130px;
+	background-image: url('logo-definitiva.png');
+	background-size: 100% 100%;
+	float: left;
+}
+
+
+
+nav.mobile{
+	display: none;
+}
+
+header nav.nav-desktop{
+	float: right;
+	font-size: 17px;
+}
+
+.nav-desktop ul{
+	position: relative;
+	top: 35px;
+}
+
+.nav-desktop ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: #57532c;
+}
+
+header button{
+	padding: 14px 20px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	background-color: #a1191d;
+	color: white;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+
+.nav-desktop ul li:hover{
+     -webkit-transform: scale(1.3);
+     -ms-transform: scale(1.3);
+     transform: scale(1.2);
+     transition: 0.5s;
+}
+
+#arrow,#arrow1,#arrow2{
+	position: relative;
+}
+
+/*Fim do header*/
+/*Comeco do banner*/
+/*Comeco do index*/
+section.bg-sobre{
+	max-width: 100%;
+	padding:50px 0 100px 0;
+	min-height: 800px;
+	background-image: url('../images/sobre-bike.png');
+	background-size: cover;
+	padding-top: 2.5%;
+	background-size: 100% 100%;
+}
+
+.img-bike{
+	width: 70%;
+	float: left;
+	}
+
+.img-bike img{
+	max-width: 100%;
+}
+
+
+.img-bike h2{
+	text-align: center;
+	font-size: 90px;
+	position: relative;
+	font-family: 'Great Vibes', cursive;
+	
+}
+
+.sobre-bike{
+	width: 30%;
+	float: left;
+}
+
+.sobre-bike button{
+	max-width: 300px;
+	width: 100%;
+	padding: 20px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	background-color: #a1191d;
+	color: white;
+	font-size: 23px;
+	position: relative;
+	margin-bottom: 60px;
+	margin-left: 50px;
+}
+
+button#tres{
+	display: none;
+
+}
+
+.sobre-bike h2{
+	color: rgba(0, 0, 0,0.8);
+	text-align: center;
+	font-weight: lighter;
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+
+.sobre-bike p{
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+/*Fim do banner*/
+/*Começo dos destaques*/
+.destaques{
+	width: 100%;
+	color: #57532c;
+}
+
+.destaques > h2{
+	text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.destaque-wraper h2{
+	text-align: center;
+	padding: 10px;
+	font-size: 50px;
+	font-weight: normal;
+	font-family: 'texas';
+}
+
+.destaque-wraper{
+	width: 33.3%;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+
+.destaque-wraper p{
+	margin: 0 auto;
+	width: 50%;
+}
+
+.destaques .destaque-wraper img{
+	margin-top: 30px;
+	max-width: 90%;
+	border: 8px solid #a1191d;
+	height: 450px;
+}
+
+
+.destaque-wraper input[type=submit]{
+	margin-top: 30px;
+	padding: 15px;
+	width: 25%;
+	border-radius: 10px;
+	border:0;
+	background-color:#a1191d;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	margin-bottom: 75px;
+}
+
+
+/*Fim dos destaques*/
+/*Começo do form*/
+.social{
+	font-size: 22px;
+	
+}
+
+.social i:hover{
+     -webkit-transform: scale(1.3);
+     -ms-transform: scale(1.3);
+     transform: scale(1.2);
+     transition: 0.5s;
+}
+
+.social a{
+	font-size: 32px;
+}
+
+.instagram-chamada{
+	text-align: center;
+	padding: 30px;
+	width: 100%;
+	background-color: #fffb00;
+	color: #57532c;
+}
+
+.instagram-chamada a{
+	color: #57532c;
+}
+
+form{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 800px;
+	color:  white;
+}
+
+form h2{
+	text-align: center;
+	padding-top: 5%
+}
+
+.form-wraper{
+	float: left;
+	padding:0 10px;
+	margin-top: 10px;
+}
+.form-wraper span{
+	font-size: 18px;
+}
+
+.form-wraper input[type=text]{
+	outline: 0;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 9px;
+	font-size: 15px;
+	font-weight: normal;
+	border:2px solid #57532c;
+	margin-top:8px;
+	border-radius: 10px;
+}
+.form-wraper textarea{
+	font-size: 15px;
+	width: 100%;
+	margin-top:8px;
+	padding:8px;
+	height: 121px;
+	resize: none;
+	border:2px solid #57532c;
+	border-radius: 10px;
+	outline: 0;
+	/*
+	resize: horizontal;
+	resize: vertical;
+	*/
+}
+
+.form-wraper input[type=submit]{
+	width: 100px;
+	display: inline-block;
+	height: 35px;
+	border: 0;
+	background: #a1191d;
+	color: white;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 10px;
+	outline: 0;
+	/*
+	position: relative;
+	left: 50%;
+	transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	*/
+}
+
+.form-wraper input[type=submit]:hover{
+	background-color: #ffcc00;
+	color: rgba(0,0,0,0.8);
+}
+
+.parallax{
+	width: 100%;
+	min-height: 500px;
+	background-image: url('../images/plate-definitivo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+.facebook-chamada{
+	text-align: center;
+	padding: 30px;
+	width: 100%;
+	background-color: #ffde00;
+	color: white;
+}
+
+.facebook-chamada a{
+	color: white;
+}
+/*Fim do form*/
+/*Fim do index*/
+/*Comeco do footer*/
+footer{
+	width: 100%;
+	min-height: 450px;
+	background-color: #ffde00;
+	padding-top: 1%;
+}
+
+.logo-footer{
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	padding-bottom: 4%;
+	border-bottom: 2px solid rgba(87, 83, 44,0.2);
+}
+
+.logo-footer img{
+	width: 100px;
+}
+
+.total-footer{
+	padding: 3%;
+}
+
+.total-footer h2{
+	font-weight: normal;
+	color:rgb(87, 83, 44);
+}
+
+.onde-estamos{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+
+.onde-estamos p{
+	text-align: center;
+	padding: 4px;
+	margin-top: 10px;
+	position: relative;
+	display: block;
+	color:rgb(87, 83, 44);
+	text-decoration: none;
+}
+
+.redes-sociais{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+
+.redes-sociais i{
+	color: rgba(0,0,0,0.8);
+	font-size: 30px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.suporte{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+
+.suporte a{
+	text-align: center;
+	padding: 4px;
+	margin-top: 10px;
+	position: relative;
+	display: block;
+	color:rgb(87, 83, 44);
+	text-decoration: none;
+}
+
+p.direitos{
+	text-align: center;
+	font-size: 14px;
+	width: 100%;
+	background-color: #ffde00;
+	padding: 15px;
+}
+/*Fim do footer*/
+/*Comeco página de venda*/
+
+
+.content-venda .container{
+	max-width: 1700px;
+}
+
+section.venda{
+	padding:60px 2%;
+	min-height: 90%;
+	background-color:#eeeeee;
+}
+
+section.venda h1{
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 45px;
+	font-weight: normal;
+}
+
+section.venda h1 > i{
+	font-size: 60px;
+	color: #a1191d;
+}
+
+.sidebar{
+	float: left;
+	width: 15%;
+}
+
+.search1{
+	width:90%;
+}
+
+.search1 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+.search2 span{
+	color: black;
+}
+
+.search1 .barra-preco{
+	width: 100%;
+	height: 20px;
+	background: white;
+	border:1px solid #ccc;
+	margin-top:8px;
+	border-radius: 20px;
+	position: relative;
+}
+
+.barra-preco-fill{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 20px;
+	border-radius: 20px;
+	background:linear-gradient(to bottom,rgb(255,255,255),rgb(200,200,200));
+}
+
+.pointer-barra{
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	/*Vamos deixar em -13 para ficar centralizado!*/
+	left: -13px;
+	top: -3px;
+	cursor: pointer;
+	border-radius: 8px;
+	background:linear-gradient(to bottom,rgb(255,255,255),rgb(180,180,180));
+	border:1px solid  #777;
+}
+
+.valor-pesquisa{
+	margin-top:8px;
+}
+
+.valor-pesquisa p{
+	color: black;
+	font-size: 15px;
+}
+
+.valor-pesquisa p:nth-of-type(1){
+	float: left;
+}
+
+.valor-pesquisa p:nth-of-type(2){
+	float: right;
+}
+
+.search2{
+	margin-top:40px;
+}
+
+.search2 h2{
+	font-size: 24px;
+	color: black;
+	font-weight: normal;
+}
+
+.form-venda-wraper{
+	margin-top:10px;
+}
+
+.form-venda-wraper input[type=checkbox]{
+	display: none;
+}
+
+.form-venda-wraper label{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border:1px solid black;
+	border-radius: 3px;
+	vertical-align: top;
+	cursor: pointer;
+	position: relative;
+}
+
+
+.circle{
+	width: 8px;
+	height: 8px;
+	display: none;
+	border-radius: 4px;
+	background: black;
+	position: absolute;
+	left: 6px;
+	top: 6px;
+}
+
+
+.form-venda-wraper input[type=checkbox]:checked + label > .circle{
+	display: block;
+}
+
+.form-venda-wraper span{
+	padding:0 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.pagina-venda{
+	float: left;
+	width: 75%;
+}
+
+
+
+/*Fim da pagina sobre*/
+/*Comeco da pagina de login*/
+
+section.login-css{
+	width: 100%;
+	min-height: 600px;
+	background-image: url('../images/sobre-background.jpeg');
+	background-size: cover;
+	background-position: center;
+}
+
+section.login-css form{
+	padding: 9%;
+	max-width: 700px;
+}
+
+section.login-css form h2{
+	position: relative;
+	margin-bottom: 23px;
+	font-size: 34px;
+}
+
+section.login-css input{
+	margin: 16px 0;
+	padding: 10px;
+	border-radius: 8px;
+	outline: 0;
+	height: 100%;
+	width: 100%;
+	border: 0;
+
+}
+
+
+section.login-css input[type=submit]{
+	width: 100%;
+	background-color: #a1191d;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+}
+
+p.php-session{
+	color: #a80c00;
+	margin: 14px;
+	background-color: #ff7469;
+	border:6px solid #ff7469;
+	font-weight: bold;
+	border-radius: 8px;
+	text-align: center;
+}
+
+p.php-session-deslog{
+	color: green;
+	margin: 14px;
+	background-color: #55c955;
+	border:6px solid #55c955;
+	font-weight: bold;
+	border-radius: 8px;
+	text-align: center;
+}
+
+
+/*Fim da pagina de login*/
+/*Comeco do responsivo*/
+@media screen and (max-width: 1200px){
+	.sobre-bike{
+		margin-right: 5%;
+		width: 100%;
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	.img-bike{
+		width: 100%;
+		text-align: center;
+	}
+
+	.destaque-wraper img{
+		max-width: 90%;
+
+	}
+
+	.destaque-wraper{
+		width: 100%;
+	}
+
+	.onde-estamos,
+	.redes-sociais,
+	.suporte{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.total-footer h2{
+		color: white;
+		font-size: 28px;
+	}
+	
+}
+
+@media screen and (max-width: 900px){
+
+	nav.nav-desktop,
+	.logo-desktop{
+		display: none;
+	}
+
+	.logo-mobile{
+		height: 80px;
+		width: 90px;
+		background-image: url('../images/logo-definitiva.png');
+		background-size: 100% 100%;
+		margin: 0 auto;
+	}
+
+	nav.mobile{
+		text-align: center;
+		display: block;
+		width: 100%;
+		position: relative;
+		z-index: 999;
+	}
+
+	nav.mobile h3{
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: rgba(0, 0, 0,0.8);
+		cursor: pointer;
+		font-size: 30px;
+		padding: 25px;
+	}
+
+	nav.mobile ul{
+		position: absolute;
+		left: 0;
+		top: 90px;
+		width: 100%;
+		text-align: center;
+		list-style-type: none;
+		background-color:#fffb00 ;
+		display: none;
+	}
+
+	nav.mobile li{
+		padding: 15px 0;
+		border: 1px solid white;
+	}
+
+	nav.mobile button{
+		position: absolute;
+		top: 18px;
+		right: 2.5px;
+	}
+}
+
+@media screen and (max-width: 780px){
+	nav.mobile button{
+		display: none;
+	}
+
+	.sobre-bike button{
+		width: 100%	}
+
+	button#tres{
+		display: inline-block;
+
+	}
+
+	section.bg-sobre{
+		background-image: url(../images/sobre-bike-mobile.png);
+		background-size: cover;
+	}
+}
